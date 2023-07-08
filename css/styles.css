@@ -648,10 +648,10 @@ button {
 
 .subscribe-form {
   display: flex;
+  gap: 24px;
 }
 
 .subscribe-form-label {
-  gap: 24px;
   padding-left: 80px;
   padding-right: 24px;
 }
@@ -676,7 +676,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;

@@ -859,7 +859,7 @@ button {
   fill: transparent;
 }
 
-.modal-form-checkbox:checked + .modal-form-custom-checkbox {
+.modal-form-checkbox:checked + .modal-form-agreement .modal-form-custom-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -867,6 +867,7 @@ button {
 
 .modal-form-link {
   color: var(--accent-bt);
+  text-decoration: underline;
 }
 
 .modal-form-btn {
